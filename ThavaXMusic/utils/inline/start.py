@@ -30,8 +30,7 @@ def private_panel(_):
             InlineKeyboardButton(text="💌 𝐂ʜᴀɴɴᴇʟ 💌", url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton(text="🥀 𝐎ᴡɴᴇʀ 🥀", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="❤️‍🔥 𝐒ᴏᴜʀᴄᴇ ❤️‍🔥", url=config.UPSTREAM_REPO),
+            InlineKeyboardButton(text="🥀 ʏᴏᴜʀ ᴅᴀᴅᴅʏ 🥀", user_id=config.OWNER_ID),,
         ],
     ]
     return buttons
